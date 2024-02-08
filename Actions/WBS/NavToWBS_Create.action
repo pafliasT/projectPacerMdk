@@ -1,0 +1,6 @@
+{
+    "ModalPageFullscreen": false,
+    "ModalPage": true,
+    "PageToOpen": "/projectPacer/Pages/WBS/WBS_Create.page",
+    "_Type": "Action.Type.Navigation"
+}

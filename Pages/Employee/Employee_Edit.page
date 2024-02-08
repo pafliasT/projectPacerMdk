@@ -1,0 +1,58 @@
+{
+	"Caption": "Update Employee Detail",
+	"DesignTimeTarget": {
+		"Service": "/projectPacer/Services/pacerMdk.service",
+		"EntitySet": "Employee",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "Left",
+				"SystemItem": "Cancel",
+				"OnPress": "/projectPacer/Actions/CloseModalPage_Cancel.action"
+			},
+			{
+				"Position": "Right",
+				"SystemItem": "Save",
+				"OnPress": "/projectPacer/Actions/Employee/Employee_UpdateEntity.action"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0",
+					"Visible": true,
+					"Controls": [
+						{
+							"Caption": "FullName",
+							"_Name": "FullName",
+							"Value": "{FullName}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Role",
+							"_Name": "Role",
+							"Value": "{Role}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"_Name": "isActive",
+							"Caption": "isActive",
+							"Value": "{isActive}",
+							"_Type": "Control.Type.FormCell.Switch"
+						}
+					]
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Employee_Edit",
+	"PrefersLargeCaption": true
+}

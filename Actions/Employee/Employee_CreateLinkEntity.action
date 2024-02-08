@@ -1,0 +1,20 @@
+{
+    "ParentLink": {
+        "Property": "projects",
+        "Target": {
+            "EntitySet": "Employee",
+            "ReadLink": "{@odata.readLink}"
+        }
+    },
+    "OnFailure": "/projectPacer/Actions/CreateEntityFailureMessage.action",
+    "OnSuccess": "/projectPacer/Actions/CreateEntitySuccessMessage.action",
+    "Properties": {},
+    "Target": {
+        "EntitySet": "LinkEntity",
+        "Service": "/projectPacer/Services/pacerMdk.service"
+    },
+    "ActionResult": {
+        "_Name": "create"
+    },
+    "_Type": "Action.Type.ODataService.CreateRelatedEntity"
+}

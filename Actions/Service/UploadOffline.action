@@ -1,0 +1,9 @@
+{
+    "Service": "/projectPacer/Services/pacerMdk.service",
+    "_Type": "Action.Type.OfflineOData.Upload",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnSuccess": "/projectPacer/Actions/Service/DownloadStartedMessage.action",
+    "OnFailure": "/projectPacer/Actions/Service/SyncFailureMessage.action"
+}

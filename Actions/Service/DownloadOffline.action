@@ -1,0 +1,22 @@
+{
+    "Service": "/projectPacer/Services/pacerMdk.service",
+    "DefiningRequests": [{
+            "Name": "Employee",
+            "Query": "Employee"
+        },
+        {
+            "Name": "LinkEntity",
+            "Query": "LinkEntity"
+        },
+        {
+            "Name": "WBS",
+            "Query": "WBS"
+        }
+    ],
+    "_Type": "Action.Type.OfflineOData.Download",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnFailure": "/projectPacer/Actions/Service/SyncFailureMessage.action",
+    "OnSuccess": "/projectPacer/Rules/ErrorArchive/ErrorArchive_CheckForSyncError.js"
+}

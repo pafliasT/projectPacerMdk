@@ -1,0 +1,8 @@
+{
+    "_Type": "Action.Type.ApplicationUpdate",
+    "ActionResult": {
+        "_Name": "AppUpdate"
+    },
+    "OnFailure": "/projectPacer/Rules/Application/AppUpdateFailure.js",
+    "OnSuccess": "/projectPacer/Rules/Application/AppUpdateSuccess.js"
+}

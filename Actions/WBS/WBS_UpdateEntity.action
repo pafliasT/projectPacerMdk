@@ -1,0 +1,20 @@
+{
+    "_Type": "Action.Type.ODataService.UpdateEntity",
+    "Target": {
+        "EntitySet": "WBS",
+        "Service": "/projectPacer/Services/pacerMdk.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "Properties": {
+        "WBS": "#Control:WBS/#Value",
+        "WBS_DACC": "#Control:WBS_DACC/#Value",
+        "Name": "#Control:Name/#Value",
+        "isActive": "#Control:isActive/#Value"
+    },
+    "UpdateLinks": [],
+    "ActionResult": {
+        "_Name": "update"
+    },
+    "OnSuccess": "/projectPacer/Actions/UpdateEntitySuccessMessage.action",
+    "OnFailure": "/projectPacer/Actions/UpdateEntityFailureMessage.action"
+}

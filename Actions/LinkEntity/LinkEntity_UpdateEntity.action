@@ -1,0 +1,15 @@
+{
+    "_Type": "Action.Type.ODataService.UpdateEntity",
+    "Target": {
+        "EntitySet": "LinkEntity",
+        "Service": "/projectPacer/Services/pacerMdk.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "Properties": {},
+    "UpdateLinks": [],
+    "ActionResult": {
+        "_Name": "update"
+    },
+    "OnSuccess": "/projectPacer/Actions/UpdateEntitySuccessMessage.action",
+    "OnFailure": "/projectPacer/Actions/UpdateEntityFailureMessage.action"
+}

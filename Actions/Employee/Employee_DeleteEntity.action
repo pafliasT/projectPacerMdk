@@ -1,0 +1,13 @@
+{
+    "Target": {
+        "EntitySet": "Employee",
+        "Service": "/projectPacer/Services/pacerMdk.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "OnSuccess": "/projectPacer/Actions/DeleteEntitySuccessMessage.action",
+    "OnFailure": "/projectPacer/Actions/DeleteEntityFailureMessage.action",
+    "ActionResult": {
+        "_Name": "delete"
+    },
+    "_Type": "Action.Type.ODataService.DeleteEntity"
+}

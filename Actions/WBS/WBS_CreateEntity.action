@@ -1,0 +1,19 @@
+{
+    "CreateLinks": [],
+    "OnFailure": "/projectPacer/Actions/CreateEntityFailureMessage.action",
+    "OnSuccess": "/projectPacer/Actions/CreateEntitySuccessMessage.action",
+    "Properties": {
+        "WBS": "#Control:WBS/#Value",
+        "WBS_DACC": "#Control:WBS_DACC/#Value",
+        "Name": "#Control:Name/#Value",
+        "isActive": "#Control:isActive/#Value"
+    },
+    "Target": {
+        "EntitySet": "WBS",
+        "Service": "/projectPacer/Services/pacerMdk.service"
+    },
+    "ActionResult": {
+        "_Name": "create"
+    },
+    "_Type": "Action.Type.ODataService.CreateEntity"
+}

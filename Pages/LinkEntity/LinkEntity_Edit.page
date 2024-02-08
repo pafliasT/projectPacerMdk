@@ -1,0 +1,39 @@
+{
+	"Caption": "Update LinkEntity Detail",
+	"DesignTimeTarget": {
+		"Service": "/projectPacer/Services/pacerMdk.service",
+		"EntitySet": "LinkEntity",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "Left",
+				"SystemItem": "Cancel",
+				"OnPress": "/projectPacer/Actions/CloseModalPage_Cancel.action"
+			},
+			{
+				"Position": "Right",
+				"SystemItem": "Save",
+				"OnPress": "/projectPacer/Actions/LinkEntity/LinkEntity_UpdateEntity.action"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0",
+					"Visible": true,
+					"Controls": []
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "LinkEntity_Edit",
+	"PrefersLargeCaption": true
+}

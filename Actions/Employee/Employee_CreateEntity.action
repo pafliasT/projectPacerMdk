@@ -1,0 +1,18 @@
+{
+    "CreateLinks": [],
+    "OnFailure": "/projectPacer/Actions/CreateEntityFailureMessage.action",
+    "OnSuccess": "/projectPacer/Actions/CreateEntitySuccessMessage.action",
+    "Properties": {
+        "FullName": "#Control:FullName/#Value",
+        "Role": "#Control:Role/#Value",
+        "isActive": "#Control:isActive/#Value"
+    },
+    "Target": {
+        "EntitySet": "Employee",
+        "Service": "/projectPacer/Services/pacerMdk.service"
+    },
+    "ActionResult": {
+        "_Name": "create"
+    },
+    "_Type": "Action.Type.ODataService.CreateEntity"
+}

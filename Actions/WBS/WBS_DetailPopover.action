@@ -1,0 +1,12 @@
+{
+    "PopoverItems": [{
+            "Title": "Add LinkEntity",
+            "OnPress": "/projectPacer/Actions/WBS/NavToWBS_CreateLinkEntity.action"
+        },
+        {
+            "Title": "Delete",
+            "OnPress": "/projectPacer/Rules/WBS/WBS_DeleteConfirmation.js"
+        }
+    ],
+    "_Type": "Action.Type.PopoverMenu"
+}

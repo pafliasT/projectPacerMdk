@@ -1,0 +1,6 @@
+{
+    "ModalPageFullscreen": false,
+    "ModalPage": true,
+    "PageToOpen": "/projectPacer/Pages/Employee/Employee_CreateLinkEntity.page",
+    "_Type": "Action.Type.Navigation"
+}

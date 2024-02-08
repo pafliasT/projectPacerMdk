@@ -1,0 +1,10 @@
+{
+    "_Type": "Action.Type.OfflineOData.Close",
+    "Service": "/projectPacer/Services/pacerMdk.service",
+    "Force": true,
+    "ActionResult": {
+        "_Name": "close"
+    },
+    "OnSuccess": "/projectPacer/Actions/Service/CloseOfflineSuccessMessage.action",
+    "OnFailure": "/projectPacer/Actions/Service/CloseOfflineFailureMessage.action"
+}

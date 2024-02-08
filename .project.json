@@ -1,0 +1,44 @@
+{
+    "Credential": "cf",
+    "Template": {
+        "Id": "@ext-mdkvsc-npm-dev/generator-mdk",
+        "Name": "CRUD",
+        "Version": "0.0.1"
+    },
+    "CF": {
+        "Target": "https://api.cf.us10-001.hana.ondemand.com",
+        "Organization": "a0c260bb-cc0a-4cf3-8b6b-d51c7f7ea253",
+        "Space": "26f9badf-85ef-4c4f-b5d4-15d231bda20a",
+        "Deploy": {
+            "Description": "",
+            "WebClient": {
+                "Runtime": "",
+                "URL": ""
+            },
+            "Destination": [{
+                "CF": "",
+                "MDK": "pacerMdk",
+                "URL": ""
+            }]
+        }
+    },
+    "MobileService": {
+        "Type": "standard",
+        "AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/a0c260bb-cc0a-4cf3-8b6b-d51c7f7ea253/space/26f9badf-85ef-4c4f-b5d4-15d231bda20a",
+        "AppId": "pacerMdk",
+        "Destination": ["pacerMdk"]
+    },
+    "Onboarding": {
+        "Schema": "sapmobilesvcs",
+        "TimeZone": "UTC",
+        "URL": "sapmobilesvcs://?AppId=pacerMdk&ClientId=747e357d-514d-4202-9c2d-c04193afbc5a&SapCloudPlatformEndpoint=https://trial-f2b6n78g-dev-pacermdk.cfapps.us10-001.hana.ondemand.com&AuthorizationEndpointUrl=https://trial-f2b6n78g-dev-pacermdk.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://trial-f2b6n78g-dev-pacermdk.cfapps.us10-001.hana.ondemand.com&TokenUrl=https://trial-f2b6n78g-dev-pacermdk.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/token"
+    },
+    "LCAP": {
+        "FullName": "",
+        "Service": [],
+        "sourceTemplate": {
+            "id": "html5moduletemplates.basicSAPUI5ApplicationProjectModule",
+            "version": "1.40.12"
+        }
+    }
+}

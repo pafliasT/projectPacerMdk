@@ -1,0 +1,12 @@
+{
+    "PopoverItems": [{
+            "Title": "Add LinkEntity",
+            "OnPress": "/projectPacer/Actions/Employee/NavToEmployee_CreateLinkEntity.action"
+        },
+        {
+            "Title": "Delete",
+            "OnPress": "/projectPacer/Rules/Employee/Employee_DeleteConfirmation.js"
+        }
+    ],
+    "_Type": "Action.Type.PopoverMenu"
+}
